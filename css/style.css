@@ -1,10 +1,9 @@
 /************************ 
-   Google fonts Popins
+  Google fonts Popins
 *************************/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
 /************************ 
-   Webpage Global CSS 
+  Webpage Global CSS 
 *************************/
 * {
   margin: 0;
@@ -16,7 +15,6 @@ body {
 a {
   text-decoration: none;
 }
-
 h1 {
   font-family: "Raleway", sans-serif;
 }
@@ -47,23 +45,24 @@ ul {
 li {
   list-style: none;
 }
-::selection{
+::selection {
   background: rgb(82, 82, 82);
   color: #ff974d;
 }
 
 /************************ 
-   Header section CSS
+  Header section CSS
 *************************/
 header {
-  position: fixed;
+  position: sticky;
+  top: 0;
   width: 100%;
   background: #000;
   padding: 10px 0;
   box-shadow: 0px 0px 5px 0px #ff8b38d7;
   z-index: 100;
 }
-.navbar-toggler{
+.navbar-toggler {
   background-color: #ff8b38;
 }
 .navbar-nav .nav-link.active {
@@ -90,13 +89,13 @@ header .nav-link:hover {
 }
 
 /********************** 
-   Body section CSS
+  Body section CSS
 ***********************/
 .banner {
   background: url(../assets/Custom\ Panel.png) no-repeat center top;
   background-size: cover;
   color: #fff;
-  padding: 200px 0 130px;
+  padding: 150px 0 130px;
 }
 .banner h1 {
   font-size: 42px;
@@ -110,7 +109,7 @@ header .nav-link:hover {
   background: #fff;
 }
 .banner .col-lg-6 p {
-  color: #7a7a7e;
+  color: #bdbdbd;
   padding: 30px 60px 30px 0;
 }
 .banner button {
@@ -137,7 +136,7 @@ header .nav-link:hover {
   font-weight: 700;
   text-align: center;
   margin: 0;
-  padding: 12px 0;
+  padding: 12px;
 }
 .banner .form-get-started p span {
   color: #ff8b38;
@@ -178,7 +177,7 @@ header .nav-link:hover {
 }
 
 /********************** 
-   Social-media section CSS
+  Social-media section CSS
 ***********************/
 .social-media {
   box-shadow: 0px 4px 5px -5px #000;
@@ -356,9 +355,9 @@ header .nav-link:hover {
   color: #f5f5f5;
 }
 
-/********************** 
-  Pricing-section section CSS
-***********************/
+/**************************** 
+Pricing-section section CSS
+*****************************/
 .pricing-section {
   background-color: #f7f7f7;
   padding: 100px 0 90px;
@@ -384,7 +383,7 @@ header .nav-link:hover {
   transition: all 0.3s ease-in-out;
 }
 .pricing-section .pricing-table:hover .price-top {
-  margin-top: -40px;
+  margin-top: -33px;
 }
 .pricing-section .pricing-table h4 {
   color: #fff;
@@ -409,7 +408,7 @@ header .nav-link:hover {
   transition: all 0.3s ease-in-out;
 }
 .pricing-section .pricing-table:hover .price-title {
-  height: auto;
+  height: 39.19px;
   transition: all 0.3s ease-in-out;
 }
 .pricing-section .price-title h6 {
@@ -431,9 +430,9 @@ header .nav-link:hover {
   text-transform: uppercase;
 }
 
-/********************** 
-   Customers section CSS
-***********************/
+/************************ 
+  Customers section CSS
+*****************((******/
 .customers {
   padding: 100px 0 90px;
 }
@@ -472,7 +471,7 @@ header .nav-link:hover {
   display: flex;
   padding-top: 30px;
 }
-.customers .item .customer-info  img {
+.customers .item .customer-info img {
   width: 70px;
   height: 70px;
   border-radius: 50px;
@@ -482,7 +481,7 @@ header .nav-link:hover {
 }
 
 /********************** 
-   Download section CSS
+  Download section CSS
 ***********************/
 .download {
   background: url(../assets/Custom\ Panel.png) no-repeat center top;
@@ -514,7 +513,6 @@ header .nav-link:hover {
   transition: all 0.3s ease-in-out;
 }
 .download a:hover {
-  
   color: #000;
   background: #fff;
 }
@@ -535,53 +533,51 @@ header .nav-link:hover {
   background: #ff8b38;
   margin: 20px auto;
 }
-
-.contact-us .contact-form{
+.contact-us .contact-form {
   padding-top: 50px;
 }
-.contact-us .contact-form .left{
+.contact-us .contact-form .left {
   padding-right: 40px;
 }
-.contact-us .contact-form .right{
-    padding-left: 40px;
-
+.contact-us .contact-form .right {
+  padding-left: 40px;
 }
-.contact-us .form-control::placeholder{
+.contact-us .form-control::placeholder {
   color: #bdbdbd;
 }
-.contact-us .form-control{
-    color: #333;
-    margin: 35px 0;
-    padding-left: 15px;
-    border: none;
-    border-bottom: 2px solid #d6d6d6;
-    border-radius: 0;
-    box-shadow: none;
-    transition: all 0.3s ease-in-out;
+.contact-us .form-control {
+  color: #333;
+  margin: 35px 0 0;
+  padding-left: 15px;
+  border: none;
+  border-bottom: 2px solid #d6d6d6;
+  border-radius: 0;
+  box-shadow: none;
+  transition: all 0.3s ease-in-out;
 }
-.contact-us .form-control:focus{
+.contact-us .form-control:focus {
   border-bottom: 2px solid #333;
 }
-
-.contact-us .contact-form .btn-submit{
-    background: #ff8b38;
-    font-weight: 500;
-    margin-top: 20px;
-    border-radius: 3px;
-    border: none;
-    padding: 13px 22px;
-    color: #fff;
-    transition: all 0.3s ease-in-out;
+.contact-us .contact-form .btn-submit {
+  background: #ff8b38;
+  font-weight: 500;
+  margin-top: 20px;
+  border-radius: 3px;
+  border: none;
+  padding: 13px 22px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
 }
 .contact-us .contact-form .btn-submit:hover {
   background: #ff8b38c9;
 }
-/***************************
-   Main footer section CSS
-*****************************/
+
+/**************************
+  Main footer section CSS
+**************************/
 footer {
   background-color: #000;
-  padding: 30px 0;
+  padding: 15px 0 30px;
 }
 footer ul {
   padding: 0;
@@ -594,46 +590,82 @@ footer ul li {
 }
 footer ul li i {
   font-size: 35px;
-  padding: 0 15px;
+  padding: 15px;
   color: #cccccc;
   transition: all 0.3s ease-in-out;
 }
 footer ul li i:hover {
   color: #ff8b38;
 }
-footer p{
+footer p {
   margin: 0;
   padding-top: 15px;
   text-align: center;
 }
 
-
-
-
-/***********************
-   Mobile Responsive
-************************/
+/********************
+  Mobile Responsive
+*********************/
 @media (min-width: 320px) and (max-width: 576px) {
-  .navbar-collapse{
-        text-align: center;
-    padding-top: 25px;
-  }
-  
+  .navbar-collapse {text-align: center;padding-top: 25px;}
 
+  .banner {padding: 90px 0 70px;text-align: center;}
+  .banner img {width: 40%;}
+  .banner h1 {font-size: 32px;padding: 20px 0 12px;}
+  .banner .separator {display: block;margin: 0 auto;}
+  .banner .col-lg-6 p {padding: 20px 0 4px;}
+  .banner .form-get-started {margin: 40px 16px 0;}
 
+  .social-media ul {padding: 0;margin: 0;text-align: center;}
+  .social-media ul li {padding: 0;}
+  .social-media ul li i {padding: 15px;}
+  .social-media {padding: 20px 0;text-align: center;}
+  .social-media p {margin-bottom: 16px;}
 
+  .features {padding: 60px 0;}
+  .features .tab-items {text-align: center;}
+  .features ul {display: inline-flex;}
+  .features ul li {width: 100px;height: 100px;line-height: 100px;margin: 0px 1px;}
+  .features .features-info .tab-2, .features .features-info .tab-3 {position: static;}
+  .features .features-info {padding: 10px 15px;text-align: center;}
+  .features .features-info h4 {margin-bottom: 24px;}
+  .features .features-info a {margin: 20px auto 0;}
+  .features .features-img img {float: none;display: block;margin: 30px auto;}
 
+  .features-2 {padding: 60px 0 40px;}
+  .features-2 .separator {display: block;margin: 20px auto;}
+  .features-2 .col-lg-5 {text-align: center;}
+  .features-2 .features-items {padding: 20px;text-align: left;}
+  .features-2 .features-items .col-3 {text-align: center;}
 
+  .features-3 {padding: 60px 0;text-align: center;}
+  .features-3 .separator {display: block;margin: 20px auto;}
+  .features-3 img {float: none;display: block;margin: 20px auto 0;width: 100%;}
 
+  .our-process {padding: 60px 0 50px;}
+  .our-process .process-items {padding: 20px 5px 0;}
+  .our-process .process-items h4 {margin-bottom: 10px;}
+  .our-process .process-items i {margin-bottom: 15px;width: 65px;height: 65px;line-height: 60px;}
 
+  .pricing-section {padding: 60px 0;}
+  .pricing-section .pricing-table {margin: 40px 25px 0;}
+  .pricing-section .pricing-table:hover .price-top {margin-top: auto;}
+  .pricing-section .price-title {height: auto;}
 
+  .customers {padding: 60px 0;}
+  .customers .separator {margin: 15px auto;}
+  .customers .owl-carousel {padding-top: 30px;}
+  .customers .item {margin: 0 30px 0;}
 
+  .download {padding: 60px 0;}
+  .download .separator {margin: 15px auto;}
+  .download a {margin: 30px auto 0;}
 
+  .contact-us {padding: 60px 0 50px;}
+  .contact-us .separator {margin: 15px auto;}
+  .contact-us .contact-form {padding-top: 0;}
+  .contact-us .contact-form .left {padding: 0 40px;}
+  .contact-us .contact-form .right {padding: 0 40px;}
 
-
-
-
-
-
-
+  footer ul li i {font-size: 32px;}
 }

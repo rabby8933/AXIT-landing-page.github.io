@@ -50,3 +50,6 @@ $(".owl-carousel").owlCarousel({
     },
   },
 });
+
+// WOW JS
+new WOW().init();
