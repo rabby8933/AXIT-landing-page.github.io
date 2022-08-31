@@ -1,0 +1,639 @@
+/************************ 
+   Google fonts Popins
+*************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/************************ 
+   Webpage Global CSS 
+*************************/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+}
+h2 {
+  font-family: "Raleway", sans-serif;
+}
+h3 {
+  font-family: "Raleway", sans-serif;
+}
+h4 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+}
+h5 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  color: #a4a5a8;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+::selection{
+  background: rgb(82, 82, 82);
+  color: #ff974d;
+}
+
+/************************ 
+   Header section CSS
+*************************/
+header {
+  position: fixed;
+  width: 100%;
+  background: #000;
+  padding: 10px 0;
+  box-shadow: 0px 0px 5px 0px #ff8b38d7;
+  z-index: 100;
+}
+.navbar-toggler{
+  background-color: #ff8b38;
+}
+.navbar-nav .nav-link.active {
+  color: #fff;
+}
+.navbar-nav .nav-link.active:focus {
+  color: #ff8b38;
+}
+.navbar-nav .nav-link:hover {
+  color: #ff8b38;
+}
+header .nav-item {
+  padding-left: 30px;
+}
+header .nav-link {
+  color: #b0b0b0;
+  transition: all 0.3s ease-in-out;
+}
+header .nav-link:hover {
+  color: #ff8b38;
+}
+.nav-link:focus {
+  color: #ff8b38;
+}
+
+/********************** 
+   Body section CSS
+***********************/
+.banner {
+  background: url(../assets/Custom\ Panel.png) no-repeat center top;
+  background-size: cover;
+  color: #fff;
+  padding: 200px 0 130px;
+}
+.banner h1 {
+  font-size: 42px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 25px 0;
+}
+.banner .separator {
+  width: 90px;
+  height: 2px;
+  background: #fff;
+}
+.banner .col-lg-6 p {
+  color: #7a7a7e;
+  padding: 30px 60px 30px 0;
+}
+.banner button {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 35px;
+  color: #fff;
+  background: transparent;
+  border: 2px solid #fff;
+  transition: all 0.3s ease-in-out;
+}
+.banner button:hover {
+  color: #000;
+  background: #fff;
+}
+.banner .form-get-started {
+  background: #fff;
+  border-radius: 5px;
+}
+.banner .form-get-started p {
+  color: #000;
+  background: #f5f5f5;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  padding: 12px 0;
+}
+.banner .form-get-started p span {
+  color: #ff8b38;
+}
+.banner .form-get-started form {
+  padding: 40px 40px 20px;
+}
+.banner .form-get-started p span {
+}
+.banner .form-get-started .form-control {
+  border-color: #fff;
+  border-bottom: 2px solid #d6d6d6;
+  border-radius: 0;
+  margin-bottom: 40px;
+}
+.banner .form-get-started .form-control::placeholder {
+  color: #b0b0b0;
+}
+.banner .form-get-started .form-control:focus {
+  border-color: none;
+  box-shadow: none;
+}
+.banner .form-get-started .btn-primary {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 0;
+  background: #ff8b38;
+  border: 0;
+  padding: 15px 0;
+}
+.banner .form-get-started .btn-primary:hover {
+  background-color: #ff8b38e2;
+}
+.banner .form-get-started .btn-primary:focus {
+  border-color: none;
+  box-shadow: none;
+}
+
+/********************** 
+   Social-media section CSS
+***********************/
+.social-media {
+  box-shadow: 0px 4px 5px -5px #000;
+  padding: 15px 0;
+}
+.social-media h3 {
+  font-weight: 700;
+}
+.social-media p {
+  color: #b0b0b0;
+  margin: 0;
+}
+.social-media ul {
+  padding: 0;
+  margin: 0;
+  text-align: end;
+}
+.social-media ul li {
+  list-style: none;
+  display: inline;
+  padding-left: 55px;
+}
+.social-media ul li i {
+  font-size: 50px;
+  color: #cccccc;
+  transition: all 0.3s ease-in-out;
+}
+.social-media ul li i:hover {
+  color: #ff8b38;
+}
+
+/********************** 
+  Features section CSS
+***********************/
+.features {
+  background: #f5f5f5;
+  padding: 100px 0;
+}
+.features ul {
+  padding-top: 10px;
+}
+.features ul li {
+  cursor: pointer;
+  color: #fff;
+  list-style: none;
+  line-height: 115px;
+  font-size: 18px;
+  font-weight: 600;
+  width: 115px;
+  height: 115px;
+  margin: 2px 0;
+  background: #333;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.features ul li:hover {
+  background-color: #ff8b38;
+}
+.features .active {
+  background: #ff8b38;
+}
+.features .features-info h4 {
+  margin-bottom: 30px;
+}
+.features .features-info a {
+  display: block;
+  width: 115px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  background: #ff8b38;
+  font-weight: 600;
+  margin-top: 35px;
+  border-radius: 3px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.features .features-info a:hover {
+  background: #ff8b38c9;
+}
+.features .features-info {
+  position: relative;
+}
+.features .features-info .tab-2,
+.features .features-info .tab-3 {
+  display: none;
+  position: absolute;
+  bottom: -150px;
+  left: 12px;
+}
+.features .features-img img {
+  float: right;
+}
+
+/********************** 
+  Features-2 section CSS
+***********************/
+.features-2 {
+  padding: 90px 0;
+}
+.features-2 .separator {
+  width: 75px;
+  height: 3px;
+  background: #ff8b38;
+  margin: 30px 0;
+}
+.features-2 .features-items {
+  padding-top: 40px;
+}
+.features-2 .features-items i {
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  color: #ff8b38;
+  border: 2px solid #ff8b38;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+}
+
+/********************** 
+  Features-3 section CSS
+***********************/
+.features-3 {
+  background-color: #f7f7f7;
+  padding: 90px 0;
+}
+.features-3 .separator {
+  width: 75px;
+  height: 3px;
+  background: #ff8b38;
+  margin: 30px 0;
+}
+.features-3 img {
+  float: right;
+}
+
+/********************** 
+  Our-process section CSS
+***********************/
+.our-process {
+  padding: 100px 0;
+}
+.our-process .heading {
+  text-align: center;
+}
+.our-process .separator {
+  width: 75px;
+  height: 3px;
+  display: block;
+  background: #ff8b38;
+  margin: 20px auto;
+}
+.our-process .process-items {
+  text-align: center;
+  padding: 50px 5px 0;
+}
+.our-process .process-items h4 {
+  margin-bottom: 20px;
+}
+.our-process .process-items i {
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+  font-size: 30px;
+  line-height: 65px;
+  border: 2.5px solid #ff8b38;
+  border-radius: 50px;
+  color: #ff8b38;
+  margin-bottom: 30px;
+  transition: all 0.3s ease-in-out;
+}
+.our-process .process-items i:hover {
+  background-color: #ff8b38;
+  color: #f5f5f5;
+}
+
+/********************** 
+  Pricing-section section CSS
+***********************/
+.pricing-section {
+  background-color: #f7f7f7;
+  padding: 100px 0 90px;
+}
+.pricing-section .heading {
+  text-align: center;
+}
+.pricing-section .separator {
+  width: 75px;
+  height: 3px;
+  display: block;
+  background: #ff8b38;
+  margin: 20px auto;
+}
+.pricing-section .pricing-table {
+  cursor: pointer;
+  background: #333;
+  margin: 80px 25px 0;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.pricing-section .pricing-table .price-top {
+  transition: all 0.3s ease-in-out;
+}
+.pricing-section .pricing-table:hover .price-top {
+  margin-top: -40px;
+}
+.pricing-section .pricing-table h4 {
+  color: #fff;
+  margin: 0;
+  padding: 15px 0;
+  border-bottom: 1px solid #fff;
+}
+.pricing-section .pricing-table h1 span {
+  font-size: 45px;
+  font-weight: 600;
+}
+.pricing-section .pricing-table h1 {
+  font-size: 85px;
+  font-weight: 700;
+  color: #fff;
+}
+.pricing-section .pricing-table p {
+  font-style: italic;
+}
+.pricing-section .price-title {
+  height: 7px;
+  transition: all 0.3s ease-in-out;
+}
+.pricing-section .pricing-table:hover .price-title {
+  height: auto;
+  transition: all 0.3s ease-in-out;
+}
+.pricing-section .price-title h6 {
+  font-weight: 700;
+  color: #fff;
+  background: #ff8b38;
+  margin: 0;
+  padding: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+.pricing-section ul li {
+  background: #fff;
+  font-size: 15px;
+  color: #ababab;
+  padding: 10px 0;
+  border-bottom: 1px solid #f5f5f5;
+  text-transform: uppercase;
+}
+
+/********************** 
+   Customers section CSS
+***********************/
+.customers {
+  padding: 100px 0 90px;
+}
+.customers .heading {
+  text-align: center;
+}
+.customers .separator {
+  width: 75px;
+  height: 3px;
+  display: block;
+  background: #ff8b38;
+  margin: 20px auto;
+}
+.customers .owl-carousel {
+  padding-top: 50px;
+}
+.customers .item {
+  margin: 0 50px 0;
+}
+.customers .item .comment {
+  position: relative;
+  background: #f5f5f5;
+  padding: 20px 20px 4px;
+}
+.customers .item .comment::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #f5f5f5;
+  bottom: -10px;
+  left: 24px;
+  transform: rotate(45deg);
+}
+.customers .customer-info {
+  display: flex;
+  padding-top: 30px;
+}
+.customers .item .customer-info  img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+.customers .details {
+  padding: 10px 0 0 20px;
+}
+
+/********************** 
+   Download section CSS
+***********************/
+.download {
+  background: url(../assets/Custom\ Panel.png) no-repeat center top;
+  background-size: cover;
+  color: #fff;
+  padding: 80px 0;
+}
+.download .heading {
+  text-align: center;
+}
+.download .separator {
+  width: 75px;
+  height: 3px;
+  display: block;
+  background: #fff;
+  margin: 20px auto;
+}
+.download a {
+  display: block;
+  width: 140px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+  background: transparent;
+  border: 2px solid #fff;
+  font-weight: 600;
+  margin: 35px auto 0;
+  transition: all 0.3s ease-in-out;
+}
+.download a:hover {
+  
+  color: #000;
+  background: #fff;
+}
+
+/********************** 
+  Contact Us section CSS
+***********************/
+.contact-us {
+  padding: 100px 0 90px;
+}
+.contact-us .heading {
+  text-align: center;
+}
+.contact-us .separator {
+  width: 75px;
+  height: 3px;
+  display: block;
+  background: #ff8b38;
+  margin: 20px auto;
+}
+
+.contact-us .contact-form{
+  padding-top: 50px;
+}
+.contact-us .contact-form .left{
+  padding-right: 40px;
+}
+.contact-us .contact-form .right{
+    padding-left: 40px;
+
+}
+.contact-us .form-control::placeholder{
+  color: #bdbdbd;
+}
+.contact-us .form-control{
+    color: #333;
+    margin: 35px 0;
+    padding-left: 15px;
+    border: none;
+    border-bottom: 2px solid #d6d6d6;
+    border-radius: 0;
+    box-shadow: none;
+    transition: all 0.3s ease-in-out;
+}
+.contact-us .form-control:focus{
+  border-bottom: 2px solid #333;
+}
+
+.contact-us .contact-form .btn-submit{
+    background: #ff8b38;
+    font-weight: 500;
+    margin-top: 20px;
+    border-radius: 3px;
+    border: none;
+    padding: 13px 22px;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.contact-us .contact-form .btn-submit:hover {
+  background: #ff8b38c9;
+}
+/***************************
+   Main footer section CSS
+*****************************/
+footer {
+  background-color: #000;
+  padding: 30px 0;
+}
+footer ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+footer ul li {
+  list-style: none;
+  display: inline;
+}
+footer ul li i {
+  font-size: 35px;
+  padding: 0 15px;
+  color: #cccccc;
+  transition: all 0.3s ease-in-out;
+}
+footer ul li i:hover {
+  color: #ff8b38;
+}
+footer p{
+  margin: 0;
+  padding-top: 15px;
+  text-align: center;
+}
+
+
+
+
+/***********************
+   Mobile Responsive
+************************/
+@media (min-width: 320px) and (max-width: 576px) {
+  .navbar-collapse{
+        text-align: center;
+    padding-top: 25px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
