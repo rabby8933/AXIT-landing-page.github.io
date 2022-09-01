@@ -95,7 +95,7 @@ header .nav-link:hover {
   background: url(../assets/Custom\ Panel.png) no-repeat center top;
   background-size: cover;
   color: #fff;
-  padding: 150px 0 130px;
+  padding: 130px 0 130px;
 }
 .banner h1 {
   font-size: 42px;
@@ -409,7 +409,6 @@ Pricing-section section CSS
 }
 .pricing-section .pricing-table:hover .price-title {
   height: 39.19px;
-  transition: all 0.3s ease-in-out;
 }
 .pricing-section .price-title h6 {
   font-weight: 700;
@@ -608,21 +607,22 @@ footer p {
 *********************/
 @media (min-width: 320px) and (max-width: 576px) {
   .navbar-collapse {text-align: center;padding-top: 25px;}
+  header .nav-item {padding-left: 0;}
 
   .banner {padding: 90px 0 70px;text-align: center;}
   .banner img {width: 40%;}
   .banner h1 {font-size: 32px;padding: 20px 0 12px;}
   .banner .separator {display: block;margin: 0 auto;}
   .banner .col-lg-6 p {padding: 20px 0 4px;}
-  .banner .form-get-started {margin: 40px 16px 0;}
+  .banner .form-get-started {margin: 50px 16px 0;}
 
   .social-media ul {padding: 0;margin: 0;text-align: center;}
   .social-media ul li {padding: 0;}
-  .social-media ul li i {padding: 15px;}
+  .social-media ul li i {font-size: 45px;padding: 8px 15px;}
   .social-media {padding: 20px 0;text-align: center;}
   .social-media p {margin-bottom: 16px;}
 
-  .features {padding: 60px 0;}
+  .features {padding: 60px 0 50px;}
   .features .tab-items {text-align: center;}
   .features ul {display: inline-flex;}
   .features ul li {width: 100px;height: 100px;line-height: 100px;margin: 0px 1px;}
@@ -630,7 +630,7 @@ footer p {
   .features .features-info {padding: 10px 15px;text-align: center;}
   .features .features-info h4 {margin-bottom: 24px;}
   .features .features-info a {margin: 20px auto 0;}
-  .features .features-img img {float: none;display: block;margin: 30px auto;}
+  .features .features-img img {float: none;display: block;margin: 40px auto;}
 
   .features-2 {padding: 60px 0 40px;}
   .features-2 .separator {display: block;margin: 20px auto;}
@@ -638,7 +638,7 @@ footer p {
   .features-2 .features-items {padding: 20px;text-align: left;}
   .features-2 .features-items .col-3 {text-align: center;}
 
-  .features-3 {padding: 60px 0;text-align: center;}
+  .features-3 {padding: 60px 0 50px;text-align: center;}
   .features-3 .separator {display: block;margin: 20px auto;}
   .features-3 img {float: none;display: block;margin: 20px auto 0;width: 100%;}
 
